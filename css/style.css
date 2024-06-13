@@ -553,6 +553,15 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   padding: 10px;
   }
 
+  .button a {
+    text-decoration: none;
+   
+  }
+
+  .button a:visited{
+    color: inherit;
+  }
+
 .button::before {
 content: '';
   border-radius: 1000px;
